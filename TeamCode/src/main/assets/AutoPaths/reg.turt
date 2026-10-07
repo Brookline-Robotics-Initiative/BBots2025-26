@@ -1,0 +1,171 @@
+{
+  "version": "2.4.0",
+  "header": {
+    "info": "Created with Turtle Tracer",
+    "copyright": "Copyright 2026 Matthew Allen. Licensed under the Modified Apache License, Version 2.0.",
+    "link": "https://github.com/Mallen220/TurtleTracer"
+  },
+  "startPoint": {
+    "x": 56.11764705882353,
+    "y": 8.682352941176472,
+    "heading": "linear",
+    "startDeg": 90,
+    "endDeg": 90
+  },
+  "lines": [
+    {
+      "name": "BeforeFirstRow",
+      "endPoint": {
+        "x": 47.1578947368421,
+        "y": 34.52631578947369,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 90,
+        "endDeg": 180
+      },
+      "controlPoints": [
+        {
+          "x": 94.52631578947368,
+          "y": 28.740153967814095
+        }
+      ],
+      "color": "#8A9665",
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "event-1764971235454-lk0dxpznb",
+          "name": "IntakeOn",
+          "position": 0.5,
+          "lineIndex": 0
+        }
+      ],
+      "id": "line-c9qdniffk4q",
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "name": "AfterFirstRow",
+      "endPoint": {
+        "x": 16.517647058823528,
+        "y": 34.94117647058824,
+        "heading": "tangential",
+        "reverse": false
+      },
+      "controlPoints": [],
+      "color": "#8DB7DD",
+      "id": "line-tncj332bnof",
+      "eventMarkers": [],
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "name": "BeforeSecondRow",
+      "endPoint": {
+        "x": 15.670588235294119,
+        "y": 54.63529411764706,
+        "heading": "tangential",
+        "reverse": false
+      },
+      "controlPoints": [],
+      "color": "#6ACA87",
+      "id": "line-nyc65375idr",
+      "eventMarkers": [],
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "name": "AfterSecondRow",
+      "endPoint": {
+        "x": 39.17647058823529,
+        "y": 58.65882352941176,
+        "heading": "tangential",
+        "reverse": false
+      },
+      "controlPoints": [],
+      "color": "#D6898D",
+      "id": "line-oapgjt3e75k",
+      "eventMarkers": [],
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "name": "Scoring Position",
+      "endPoint": {
+        "x": 71.78947368421053,
+        "y": 71.36842105263158,
+        "heading": "tangential",
+        "reverse": false,
+        "startDeg": 0,
+        "endDeg": 0
+      },
+      "controlPoints": [],
+      "color": "#8BDCCC",
+      "id": "line-s52he5cxst9",
+      "eventMarkers": [],
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "line-ziuk77snal",
+      "name": "back",
+      "endPoint": {
+        "x": 71.78947368421053,
+        "y": 58.65882352941176,
+        "heading": "tangential",
+        "reverse": true
+      },
+      "controlPoints": [],
+      "color": "#AA8A99",
+      "locked": false,
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    }
+  ],
+  "sequence": [
+    {
+      "kind": "path",
+      "lineId": "line-c9qdniffk4q"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-tncj332bnof"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-nyc65375idr"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-oapgjt3e75k"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-s52he5cxst9"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-ziuk77snal"
+    }
+  ],
+  "shapes": [],
+  "extraData": {}
+}
