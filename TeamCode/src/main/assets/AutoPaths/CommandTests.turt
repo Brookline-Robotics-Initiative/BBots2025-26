@@ -1,0 +1,160 @@
+{
+  "version": "2.4.0",
+  "header": {
+    "info": "Created with Turtle Tracer",
+    "copyright": "Copyright 2026 Matthew Allen. Licensed under the Modified Apache License, Version 2.0.",
+    "link": "https://github.com/Mallen220/TurtleTracer"
+  },
+  "startPoint": {
+    "x": 56,
+    "y": 8,
+    "heading": "linear",
+    "startDeg": -90,
+    "endDeg": -90,
+    "locked": false
+  },
+  "lines": [
+    {
+      "id": "line-t23zg099i7a",
+      "name": "",
+      "endPoint": {
+        "x": 40.084345325281944,
+        "y": 95.45387453874538,
+        "heading": "linear",
+        "startDeg": -90,
+        "endDeg": -90
+      },
+      "controlPoints": [],
+      "color": "#D87978",
+      "eventMarkers": [],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "line-muyjxqvp-vsfm0u",
+      "name": "",
+      "endPoint": {
+        "x": 34.21086426094773,
+        "y": 90.897674007962,
+        "heading": "linear",
+        "startDeg": -90,
+        "endDeg": -90
+      },
+      "controlPoints": [],
+      "color": "#AD79BC",
+      "locked": false
+    },
+    {
+      "id": "line-muyjxvoi-nbgihu",
+      "name": "",
+      "endPoint": {
+        "x": 31.205855913702322,
+        "y": 77.95302266598176,
+        "heading": "linear",
+        "startDeg": -90,
+        "endDeg": -90
+      },
+      "controlPoints": [],
+      "color": "#9DC976",
+      "locked": false
+    }
+  ],
+  "sequence": [
+    {
+      "kind": "path",
+      "lineId": "line-t23zg099i7a"
+    },
+    {
+      "kind": "wait",
+      "id": "mlr5s17q-7ocfqm",
+      "name": "wait",
+      "durationMs": 1000,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "event-1771365146904-auopvfm2o",
+          "name": "IntakeOff",
+          "position": 0.98,
+          "waitId": "mlr5s17q-7ocfqm"
+        },
+        {
+          "id": "event-1771365169251-j0wk2ypg6",
+          "name": "IntakeOn",
+          "position": 0,
+          "waitId": "mlr5s17q-7ocfqm"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjxqvp-vsfm0u"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjxvoi-nbgihu"
+    }
+  ],
+  "shapes": [
+    {
+      "id": "triangle-1",
+      "name": "Red Goal",
+      "vertices": [
+        {
+          "x": 144,
+          "y": 70
+        },
+        {
+          "x": 144,
+          "y": 144
+        },
+        {
+          "x": 118,
+          "y": 144
+        },
+        {
+          "x": 138,
+          "y": 118
+        },
+        {
+          "x": 138,
+          "y": 70
+        }
+      ],
+      "color": "#dc2626",
+      "fillColor": "#fca5a5"
+    },
+    {
+      "id": "triangle-2",
+      "name": "Blue Goal",
+      "vertices": [
+        {
+          "x": 7,
+          "y": 118
+        },
+        {
+          "x": 26,
+          "y": 144
+        },
+        {
+          "x": 0,
+          "y": 144
+        },
+        {
+          "x": 0,
+          "y": 70
+        },
+        {
+          "x": 7,
+          "y": 70
+        }
+      ],
+      "color": "#0b08d9",
+      "fillColor": "#fca5a5"
+    }
+  ],
+  "extraData": {}
+}

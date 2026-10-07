@@ -1,0 +1,411 @@
+{
+  "version": "2.4.0",
+  "header": {
+    "info": "Created with Turtle Tracer",
+    "copyright": "Copyright 2026 Matthew Allen. Licensed under the Modified Apache License, Version 2.0.",
+    "link": "https://github.com/Mallen220/TurtleTracer"
+  },
+  "startPoint": {
+    "x": 88,
+    "y": 8,
+    "heading": "linear",
+    "startDeg": 0,
+    "endDeg": 44,
+    "locked": false
+  },
+  "lines": [
+    {
+      "name": "OuttakePreload",
+      "endPoint": {
+        "x": 71.1578947368421,
+        "y": 70.10526315789473,
+        "heading": "linear",
+        "startDeg": 0,
+        "endDeg": 44
+      },
+      "controlPoints": [],
+      "color": "#000000",
+      "eventMarkers": [
+        {
+          "id": "event-1765669487457-ar87y0mda",
+          "name": "ShootCenter",
+          "position": 1,
+          "lineIndex": 0
+        }
+      ],
+      "locked": false,
+      "id": "line-muyjyvjx-24g33n",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "endPoint": {
+        "x": 100.42105263157895,
+        "y": 35.78947368421052,
+        "heading": "linear",
+        "startDeg": 44,
+        "endDeg": 0
+      },
+      "controlPoints": [],
+      "color": "#C56CD9",
+      "name": "ToIntakeOne",
+      "eventMarkers": [],
+      "id": "line-muyjyvjx-269sg2",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "IntakeOne",
+      "endPoint": {
+        "x": 132,
+        "y": 35.78947368421052,
+        "heading": "tangential",
+        "reverse": false
+      },
+      "controlPoints": [],
+      "color": "#9b5cad",
+      "eventMarkers": [
+        {
+          "id": "event-1765669594928-lzo2cjkph",
+          "name": "IntakeOn",
+          "position": 0,
+          "lineIndex": 2
+        },
+        {
+          "id": "event-1765669640305-gi92yqaml",
+          "name": "IntakeOff",
+          "position": 1,
+          "lineIndex": 2
+        }
+      ],
+      "id": "line-muyjyvjx-av3ej5",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "OuttakeOne",
+      "endPoint": {
+        "x": 71.78947368421052,
+        "y": 71.78947368421052,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 0,
+        "endDeg": 46
+      },
+      "controlPoints": [
+        {
+          "x": 74.10526315789474,
+          "y": 48.00000000000001
+        }
+      ],
+      "color": "#a471cc",
+      "eventMarkers": [
+        {
+          "id": "event-1765669687070-0tn8pvntx",
+          "name": "ShootCenter",
+          "position": 1,
+          "lineIndex": 3
+        }
+      ],
+      "id": "line-muyjyvjx-97blpe",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "ToIntakeTwo",
+      "endPoint": {
+        "x": 99.36842105263159,
+        "y": 59.99999999999999,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 44,
+        "endDeg": 0
+      },
+      "controlPoints": [],
+      "color": "#bd283f",
+      "id": "line-muyjyvjx-v99d6t",
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "IntakeTwo",
+      "endPoint": {
+        "x": 132.8421052631579,
+        "y": 59.578947368421055,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 0,
+        "endDeg": 0
+      },
+      "controlPoints": [],
+      "color": "#ca2f47",
+      "eventMarkers": [
+        {
+          "id": "event-1765669697764-7clq15rqe",
+          "name": "IntakeOn",
+          "position": 0,
+          "lineIndex": 5
+        },
+        {
+          "id": "event-1765669702858-6up7t5q79",
+          "name": "IntakeOff",
+          "position": 1,
+          "lineIndex": 5
+        }
+      ],
+      "id": "line-muyjyvjx-nanapx",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "OuttakeTwo",
+      "endPoint": {
+        "x": 71.57894736842105,
+        "y": 71.78947368421052,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 0,
+        "endDeg": 44
+      },
+      "controlPoints": [
+        {
+          "x": 80.42105263157895,
+          "y": 33.68421052631579
+        }
+      ],
+      "color": "#ba2626",
+      "eventMarkers": [
+        {
+          "id": "event-1765669729243-l11kwmghe",
+          "name": "ShootCenter",
+          "position": 1,
+          "lineIndex": 6
+        }
+      ],
+      "id": "line-muyjyvjx-5lir1g",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "ToIntakeThree",
+      "endPoint": {
+        "x": 98.73684210526315,
+        "y": 83.78947368421052,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 44,
+        "endDeg": 0
+      },
+      "controlPoints": [],
+      "color": "#5da040",
+      "id": "line-muyjyvjx-66splt",
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "IntakeThree",
+      "endPoint": {
+        "x": 132,
+        "y": 84.42105263157895,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 0,
+        "endDeg": 0
+      },
+      "controlPoints": [],
+      "color": "#54a329",
+      "eventMarkers": [
+        {
+          "id": "event-1765669757581-en3r9qw3t",
+          "name": "IntakeOn",
+          "position": 0,
+          "lineIndex": 8
+        },
+        {
+          "id": "event-1765669767137-jil6zcehe",
+          "name": "IntakeOff",
+          "position": 1,
+          "lineIndex": 8
+        }
+      ],
+      "id": "line-muyjyvjx-9mctjg",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "OuttakeThree",
+      "endPoint": {
+        "x": 71.57894736842105,
+        "y": 71.78947368421052,
+        "heading": "linear",
+        "reverse": false,
+        "startDeg": 0,
+        "endDeg": 44
+      },
+      "controlPoints": [],
+      "color": "#5ec846",
+      "eventMarkers": [
+        {
+          "id": "event-1765669741051-2kq1a24e3",
+          "name": "ShootCenter",
+          "position": 1,
+          "lineIndex": 9
+        }
+      ],
+      "id": "line-muyjyvjx-bo0ylz",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "id": "line-muyjywiw-nmf783",
+      "name": "",
+      "endPoint": {
+        "x": 45.30627969693078,
+        "y": 71.7118514832413,
+        "heading": "linear",
+        "startDeg": 44,
+        "endDeg": 44
+      },
+      "controlPoints": [],
+      "color": "#D596CB",
+      "locked": false
+    }
+  ],
+  "sequence": [
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-24g33n"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-269sg2"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-av3ej5"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-97blpe"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-v99d6t"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-nanapx"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-5lir1g"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-66splt"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-9mctjg"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjyvjx-bo0ylz"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muyjywiw-nmf783"
+    }
+  ],
+  "shapes": [
+    {
+      "id": "triangle-1",
+      "name": "Red Goal",
+      "vertices": [
+        {
+          "x": 0,
+          "y": 70
+        },
+        {
+          "x": 0,
+          "y": 144
+        },
+        {
+          "x": 26,
+          "y": 144
+        },
+        {
+          "x": 6,
+          "y": 118
+        },
+        {
+          "x": 6,
+          "y": 70
+        }
+      ],
+      "color": "#dc2626",
+      "fillColor": "#fca5a5"
+    },
+    {
+      "id": "triangle-2",
+      "name": "Blue Goal",
+      "vertices": [
+        {
+          "x": 137,
+          "y": 118
+        },
+        {
+          "x": 118,
+          "y": 144
+        },
+        {
+          "x": 144,
+          "y": 144
+        },
+        {
+          "x": 144,
+          "y": 70
+        },
+        {
+          "x": 137,
+          "y": 70
+        }
+      ],
+      "color": "#0b08d9",
+      "fillColor": "#fca5a5"
+    }
+  ],
+  "extraData": {}
+}
