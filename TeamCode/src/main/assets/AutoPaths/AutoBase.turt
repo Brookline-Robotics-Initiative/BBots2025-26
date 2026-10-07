@@ -1,0 +1,125 @@
+{
+  "version": "2.4.0",
+  "header": {
+    "info": "Created with Turtle Tracer",
+    "copyright": "Copyright 2026 Matthew Allen. Licensed under the Modified Apache License, Version 2.0.",
+    "link": "https://github.com/Mallen220/TurtleTracer"
+  },
+  "startPoint": {
+    "x": 56,
+    "y": 8,
+    "heading": "linear",
+    "startDeg": 90,
+    "endDeg": 97.58886678637043,
+    "locked": false
+  },
+  "lines": [
+    {
+      "name": "Path 1",
+      "endPoint": {
+        "x": 72.12253542915383,
+        "y": 25.537819408381665,
+        "heading": "linear",
+        "startDeg": 90,
+        "endDeg": 90
+      },
+      "controlPoints": [],
+      "color": "#9BDADD",
+      "eventMarkers": [],
+      "locked": false,
+      "id": "line-muw2pt46-ccv8ry",
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "name": "Path 2",
+      "endPoint": {
+        "x": 59.803732353938614,
+        "y": 118,
+        "heading": "tangential",
+        "reverse": false
+      },
+      "controlPoints": [],
+      "color": "#8C8678",
+      "id": "line-muw2pt46-hzehkm",
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    }
+  ],
+  "sequence": [
+    {
+      "kind": "path",
+      "lineId": "line-muw2pt46-ccv8ry"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muw2pt46-hzehkm"
+    }
+  ],
+  "shapes": [
+    {
+      "id": "triangle-1",
+      "name": "Red Goal",
+      "vertices": [
+        {
+          "x": 144,
+          "y": 70
+        },
+        {
+          "x": 144,
+          "y": 144
+        },
+        {
+          "x": 118,
+          "y": 144
+        },
+        {
+          "x": 138,
+          "y": 118
+        },
+        {
+          "x": 138,
+          "y": 70
+        }
+      ],
+      "color": "#dc2626",
+      "fillColor": "#fca5a5"
+    },
+    {
+      "id": "triangle-2",
+      "name": "Blue Goal",
+      "vertices": [
+        {
+          "x": 7,
+          "y": 118
+        },
+        {
+          "x": 26,
+          "y": 144
+        },
+        {
+          "x": 0,
+          "y": 144
+        },
+        {
+          "x": 0,
+          "y": 70
+        },
+        {
+          "x": 7,
+          "y": 70
+        }
+      ],
+      "color": "#0b08d9",
+      "fillColor": "#fca5a5"
+    }
+  ],
+  "extraData": {}
+}
