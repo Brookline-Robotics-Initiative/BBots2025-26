@@ -10,7 +10,7 @@
     "y": 8,
     "heading": "linear",
     "startDeg": 90,
-    "endDeg": 97.58886678637043,
+    "endDeg": 96.38644974003205,
     "locked": false
   },
   "lines": [
@@ -27,7 +27,7 @@
       "color": "#9BDADD",
       "eventMarkers": [],
       "locked": false,
-      "id": "line-muw2pt46-ccv8ry",
+      "id": "line-muyjd0rm-qn8lew",
       "hidden": false,
       "waitBeforeMs": 0,
       "waitAfterMs": 0,
@@ -37,14 +37,14 @@
     {
       "name": "Path 2",
       "endPoint": {
-        "x": 59.803732353938614,
-        "y": 118,
+        "x": 62.115277236435084,
+        "y": 114.94541116183665,
         "heading": "tangential",
         "reverse": false
       },
       "controlPoints": [],
       "color": "#8C8678",
-      "id": "line-muw2pt46-hzehkm",
+      "id": "line-muyjd0rm-05amxz",
       "eventMarkers": [],
       "hidden": false,
       "waitBeforeMs": 0,
@@ -56,11 +56,11 @@
   "sequence": [
     {
       "kind": "path",
-      "lineId": "line-muw2pt46-ccv8ry"
+      "lineId": "line-muyjd0rm-qn8lew"
     },
     {
       "kind": "path",
-      "lineId": "line-muw2pt46-hzehkm"
+      "lineId": "line-muyjd0rm-05amxz"
     }
   ],
   "shapes": [
@@ -90,7 +90,8 @@
         }
       ],
       "color": "#dc2626",
-      "fillColor": "#fca5a5"
+      "fillColor": "#fca5a5",
+      "type": "obstacle"
     },
     {
       "id": "triangle-2",
@@ -118,7 +119,8 @@
         }
       ],
       "color": "#0b08d9",
-      "fillColor": "#fca5a5"
+      "fillColor": "#fca5a5",
+      "type": "obstacle"
     }
   ],
   "extraData": {}
