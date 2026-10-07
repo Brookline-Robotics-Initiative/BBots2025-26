@@ -26,7 +26,7 @@
       "controlPoints": [
         {
           "x": 94.52631578947368,
-          "y": 28.740153967814095
+          "y": 53.473684210526315
         }
       ],
       "color": "#8A9665",
@@ -104,7 +104,7 @@
       "name": "Scoring Position",
       "endPoint": {
         "x": 71.78947368421053,
-        "y": 71.36842105263158,
+        "y": 73.91112042337771,
         "heading": "tangential",
         "reverse": false,
         "startDeg": 0,
