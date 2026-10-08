@@ -10,7 +10,7 @@
     "y": 8.682352941176472,
     "heading": "linear",
     "startDeg": 90,
-    "endDeg": 19.440034828176294
+    "endDeg": 77.30041551040267
   },
   "lines": [
     {
@@ -62,7 +62,8 @@
       "waitAfterMs": 0,
       "waitBeforeName": "",
       "waitAfterName": "",
-      "hidden": false
+      "hidden": false,
+      "isChain": true
     },
     {
       "name": "BeforeSecondRow",
@@ -80,13 +81,14 @@
       "waitAfterMs": 0,
       "waitBeforeName": "",
       "waitAfterName": "",
-      "hidden": false
+      "hidden": false,
+      "isChain": true
     },
     {
       "name": "AfterSecondRow",
       "endPoint": {
-        "x": 39.17647058823529,
-        "y": 58.65882352941176,
+        "x": 39.9897264671889,
+        "y": 54.63529411764706,
         "heading": "tangential",
         "reverse": false
       },
@@ -98,7 +100,8 @@
       "waitAfterMs": 0,
       "waitBeforeName": "",
       "waitAfterName": "",
-      "hidden": false
+      "hidden": false,
+      "isChain": true
     },
     {
       "name": "Scoring Position",
@@ -118,7 +121,8 @@
       "waitAfterMs": 0,
       "waitBeforeName": "",
       "waitAfterName": "",
-      "hidden": false
+      "hidden": false,
+      "isChain": true
     },
     {
       "id": "line-ziuk77snal",
@@ -137,7 +141,8 @@
       "waitBeforeMs": 0,
       "waitAfterMs": 0,
       "waitBeforeName": "",
-      "waitAfterName": ""
+      "waitAfterName": "",
+      "isChain": true
     },
     {
       "id": "line-muyjy1z3-1b0llq",
@@ -150,7 +155,14 @@
       },
       "controlPoints": [],
       "color": "#B8B797",
-      "locked": false
+      "locked": false,
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "isChain": true
     },
     {
       "id": "line-muyjy7n2-78m3w0",
@@ -163,7 +175,14 @@
       },
       "controlPoints": [],
       "color": "#B5CD59",
-      "locked": false
+      "locked": false,
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "isChain": true
     },
     {
       "id": "line-muyjyciq-wqtg33",
@@ -176,7 +195,32 @@
       },
       "controlPoints": [],
       "color": "#99D57D",
-      "locked": false
+      "locked": false,
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
+    },
+    {
+      "id": "line-muzpxbnh-xapi66",
+      "name": "",
+      "endPoint": {
+        "x": 32.592782843200204,
+        "y": 80.49572203672788,
+        "heading": "tangential",
+        "reverse": true
+      },
+      "controlPoints": [],
+      "color": "#596857",
+      "locked": false,
+      "eventMarkers": [],
+      "hidden": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": ""
     }
   ],
   "sequence": [
@@ -186,35 +230,46 @@
     },
     {
       "kind": "path",
-      "lineId": "line-tncj332bnof"
+      "lineId": "line-tncj332bnof",
+      "isChain": true
     },
     {
       "kind": "path",
-      "lineId": "line-nyc65375idr"
+      "lineId": "line-nyc65375idr",
+      "isChain": true
     },
     {
       "kind": "path",
-      "lineId": "line-oapgjt3e75k"
+      "lineId": "line-oapgjt3e75k",
+      "isChain": true
     },
     {
       "kind": "path",
-      "lineId": "line-s52he5cxst9"
+      "lineId": "line-s52he5cxst9",
+      "isChain": true
     },
     {
       "kind": "path",
-      "lineId": "line-ziuk77snal"
+      "lineId": "line-ziuk77snal",
+      "isChain": true
     },
     {
       "kind": "path",
-      "lineId": "line-muyjy1z3-1b0llq"
+      "lineId": "line-muyjy1z3-1b0llq",
+      "isChain": true
     },
     {
       "kind": "path",
-      "lineId": "line-muyjy7n2-78m3w0"
+      "lineId": "line-muyjy7n2-78m3w0",
+      "isChain": true
     },
     {
       "kind": "path",
       "lineId": "line-muyjyciq-wqtg33"
+    },
+    {
+      "kind": "path",
+      "lineId": "line-muzpxbnh-xapi66"
     }
   ],
   "shapes": [],
